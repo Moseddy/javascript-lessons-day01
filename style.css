@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 auto;
+}
+
+.header {
+    background-color: rgb(2, 54, 2);
+    color: whitesmoke;
+    padding: 2rem 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__title {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+}
+
+.header input {
+    width: 30%;
+    height: 3rem;
+    padding: 4px 12px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 2rem 5rem;
+}
+
+.item-heading {
+    margin-bottom: 2rem;
+}
+
+.item-heading h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+form input[type="text"] {
+    width: 20%;
+    height: 2rem;
+    padding: 0.5rem;
+    /* background-color: yellow; */
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+input[type='submit'] {
+    padding: 0.4rem 2.5rem;
+    background-color: #111;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close {
+    background-color: rgb(100, 15, 15);
+    color: #fff;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+.hello {
+    color: red;
+}
+
+#hello {
+    background-color: yellow;
+    font-size: 12rem;
+}
+
+.list h2 {
+    margin-bottom: 2rem;
+}
+
+.list .list-item {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.3rem 0.2rem;
+}

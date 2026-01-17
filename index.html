@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice - Lesson 2 - DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="main-header">
+        <h2 class="header__title">ITEMS LIST</h2>
+        <input type="text" id="filter" placeholder="Filter items">
+    </header>
+    <main class="container">
+        <section class="item-heading">
+            <h2>Add Items</h2>
+            <form action="#" id="input-form">
+                <input type="text" id="list-input">
+                <input type="submit">
+            </form>
+        </section>
+        <section class="list">
+            <h2>List Items</h2>
+            <ul class="list-items">
+                <li class="list-item">Item 1 <button class="close" id="close">X</button></li>
+            </ul>
+        </section>
+
+        <button class="btn" id="button">
+            Button Check
+        </button>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
